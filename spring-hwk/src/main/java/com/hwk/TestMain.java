@@ -16,7 +16,7 @@ public class TestMain {
 		System.out.println(indexService.hashCode()+"---"+indexService2.hashCode());
 		importDao.hello();
 		UserDao userDao = (UserDao) ac.getBean("userDao");
-		userDao.list("aaa");
+		userDao.list("aaaaaa");
 
 	}
 }
